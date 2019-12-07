@@ -1,0 +1,50 @@
+.header {
+  width: 100%;
+  height: 100px;
+
+  position: absolute;
+  top: 40px;
+  left: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  box-shadow: none;
+
+  .nav__item {
+    padding: 10px 40px 10px 0;
+
+    .nav__link {
+      font-size: 15px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #fff;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+
+    &.active .nav__link,
+    &:hover .nav__link {
+      color: $blue;
+    }
+  }
+}
+
+.authorization {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  .authorization__item {
+    padding: 18px 50px;
+    color: #fff;
+
+    transition: all 0.3s linear;
+
+    &:hover {
+      background-color: $blue;
+    }
+  }
+}

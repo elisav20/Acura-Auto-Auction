@@ -1,0 +1,33 @@
+@import "vars";
+
+@font-face {
+  font-family: "ArcaMajora3";
+  src: url("../fonts/ArcaMajora3-Bold.woff") format("woff"),
+    url("../fonts/ArcaMajora3-Heavy.woff") format("woff");
+}
+
+body {
+  font-family: "ArcaMajora3";
+  font-size: 14px;
+  line-height: 1;
+  color: $black;
+  -webkit-font-smoothing: antialiased;
+}
+
+#select_model {
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+}
+
+.section {
+  background: #fff;
+}
+
+@import "header";
+@import "intro";
+@import "select2";
+@import "btn";

@@ -1,0 +1,42 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  height: 100vh;
+
+  background: #47547f url(../img/intro_bg.jpg) center no-repeat;
+  background-size: cover;
+
+  .intro__title {
+    margin-bottom: 30px;
+
+    font-size: 94px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .intro__text {
+    margin-bottom: 55px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    color: #fff;
+  }
+
+  .intro__search {
+    width: 100%;
+    max-width: 950px;
+    height: 60px;
+
+    margin: 0 auto;
+    padding: 0 85px 0 45px;
+    background: #fff;
+
+    position: relative;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+}

@@ -1,0 +1,46 @@
+.search__btn {
+  position: absolute;
+  top: 0;
+  right: -2px;
+  z-index: 1;
+  background: $blue;
+
+  border: none;
+  outline: none;
+  box-shadow: none;
+
+  cursor: initial;
+
+  width: 85px;
+  height: 60px;
+
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+
+  i {
+    padding: 20px 20px 20px 30px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    z-index: 1;
+
+    transform: translate3d(-60%, -50%, 0);
+
+    font-size: 20px;
+    color: #fff;
+
+    cursor: pointer;
+  }
+}
+
+.btn__mask {
+  background: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 70px;
+  width: 35px;
+  height: 60px;
+
+  border-radius: 50%;
+}
