@@ -44,3 +44,22 @@
 
   border-radius: 50%;
 }
+
+.register__btn {
+  margin-left: 65px;
+  padding: 20px 65px;
+
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  color: #fefefe;
+  text-transform: uppercase;
+
+  background: $blue;
+
+  transition: all 0.3s linear;
+
+  &:hover {
+    color: #fefefe;
+    background: #6685c9;
+  }
+}
