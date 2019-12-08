@@ -17,6 +17,11 @@
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
 
+  &:hover {
+    color: $white;
+    background: #6685c9;
+  }
+
   i {
     padding: 20px 20px 20px 30px;
     position: absolute;
@@ -45,21 +50,58 @@
   border-radius: 50%;
 }
 
-.register__btn {
-  margin-left: 65px;
-  padding: 20px 65px;
-
+.btn {
   font-size: 14px;
   letter-spacing: 1.5px;
-  color: #fefefe;
+  color: $white;
   text-transform: uppercase;
 
   background: $blue;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.1);
 
   transition: all 0.3s linear;
 
   &:hover {
-    color: #fefefe;
+    color: $white;
     background: #6685c9;
   }
+}
+
+.register__btn {
+  margin-left: 65px;
+  padding: 20px 65px;
+}
+
+.menu__search-btn,
+.menu__close-btn {
+  width: 240px;
+  height: 60px;
+
+  padding-left: 50px;
+
+  font-size: 14px;
+  color: #fdfdfd;
+  text-transform: uppercase;
+
+  background: $blue;
+  border: 0;
+  outline: none;
+}
+
+.btn__search {
+  width: 100%;
+  margin: 0 15px;
+}
+
+.btn__buy {
+  margin-bottom: 40px;
+  padding: 15px 65px;
+}
+
+.btn__seemore {
+  font-size: 14px;
+  color: #0f0e0b;
+  text-transform: uppercase;
+
+  background: #fff;
 }

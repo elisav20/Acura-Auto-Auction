@@ -8,7 +8,7 @@
 
   <title>Acura Auto Action</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Poppins&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito|Poppins:400,600,700&display=swap" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
@@ -192,7 +192,7 @@
               </div>
             </div>
 
-              <a href="#" class="register__btn rounded-pill">Register</a>
+            <a href="#" class="btn register__btn rounded-pill">Register</a>
 
           </div> <!-- /.steps__content -->
 
@@ -207,6 +207,333 @@
 
   </section>
   <!-- /Four steps -->
+
+  <!-- Perfect car -->
+  <section class="section section--silver">
+
+    <div class="perfectCar">
+      <div class="container">
+        <div class="section__title">Perfect car for you!</div>
+
+        <div class="menu rounded-pill">
+          <div class="menu__nav">
+            <div class="row no-gutters w-100">
+
+              <div class="col-md-3 menu__item active">
+                <a class="menu__link" href="#">Closing Soon</a>
+              </div>
+
+              <div class="col-md-3 menu__item">
+                <a class="menu__link" href="#">New Arrivals</a>
+              </div>
+
+              <div class="col-md-3 menu__item">
+                <a class="menu__link" href="#">No Bids</a>
+              </div>
+
+              <div class="col-md-3 menu__item">
+                <a class="menu__link" href="#">Buy It Now</a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="menu__search">
+            <button class="menu__search-btn dropdown-toggle rounded-pill" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">Search for a car
+              <i class="fas fa-search search__icon"></i>
+              <i class="fas fa-times close__icon"></i>
+            </button>
+
+            <div class="dropdown-menu noclose">
+              <div class="row no-gutters w-100">
+
+                <div class="col-12">
+                  <div class="dropdown-item">
+                    <select class="select2" id="select_make" name="select_make">
+
+                      <option selected disabled class="disabled"> Select by make </option>
+                      <option disabled role=separator></option>
+                      <option value="1"> Option 1 </option>
+                      <option value="2"> Option 2 </option>
+                      <option value="3"> Option 3 </option>
+                      <option value="4"> Option 4 </option>
+                      <option value="5"> Option 5 </option>
+                      <option value="6"> Option 6 </option>
+                      <option value="7"> Option 7 </option>
+                      <option value="8"> Option 8 </option>
+
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <div class="dropdown-item">
+                    <select class="select2" id="select_model" name="select_model" disabled>
+
+                      <option selected disabled> Select model </option>
+                      <option disabled role=separator></option>
+                      <option value="1"> Option 1 </option>
+                      <option value="2"> Option 2 </option>
+                      <option value="3"> Option 3 </option>
+                      <option value="4"> Option 4 </option>
+                      <option value="5"> Option 5 </option>
+                      <option value="6"> Option 6 </option>
+                      <option value="7"> Option 7 </option>
+                      <option value="8"> Option 8 </option>
+
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-12 mb-2">
+                  <div class="dropdown-item">
+                    <select class="select2" id="select_state" name="select_state">
+
+                      <option selected disabled> Select state </option>
+                      <option disabled role=separator></option>
+                      <option value="1"> Option 1 </option>
+                      <option value="2"> Option 2 </option>
+                      <option value="3"> Option 3 </option>
+                      <option value="4"> Option 4 </option>
+                      <option value="5"> Option 5 </option>
+                      <option value="6"> Option 6 </option>
+                      <option value="7"> Option 7 </option>
+                      <option value="8"> Option 8 </option>
+
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-12 d-flex justify-content-center">
+                  <a href="#" class="btn btn__search rounded-pill">Search</a>
+                </div>
+
+              </div>
+              <!-- .row -->
+            </div>
+            <!-- /.dropdown-menu -->
+
+          </div>
+          <!-- /.menu__search -->
+        </div>
+        <!-- /.menu -->
+
+        <div class="car">
+          <div class="row mb-4">
+            <div class="col-md-3 carBox moreBox" style="display: none;">
+              <div class="car__item">
+                <div class="car__date">6 day(s),11: 02: 03 Left</div>
+                <img class="car__img img-fluid" src="img/cars/1.jpg" alt="car">
+                <div class="car__title">2002 Bmw 5 series</div>
+                <div class="car__price">$ 500,000,000</div>
+                <a href="#" class="btn btn__buy rounded-pill">Bid Now</a>
+                <div class="row no-gutters">
+                  <div class="col-md-3 car__info">2012</div>
+                  <div class="col-md-3 car__info">Automatic</div>
+                  <div class="col-md-3 car__info">White</div>
+                  <div class="col-md-3 car__info">75146</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 carBox moreBox" style="display: none;">
+              <div class="car__item">
+                <div class="car__date">6 day(s),11: 02: 03 Left</div>
+                <img class="car__img img-fluid" src="img/cars/2.jpg" alt="car">
+                <div class="car__title">2002 Bmw 5 series</div>
+                <div class="car__price">$ 500,000,000</div>
+                <a href="#" class="btn btn__buy rounded-pill">Bid Now</a>
+                <div class="row no-gutters">
+                  <div class="col-md-3 car__info">2012</div>
+                  <div class="col-md-3 car__info">Automatic</div>
+                  <div class="col-md-3 car__info">White</div>
+                  <div class="col-md-3 car__info">75146</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 carBox moreBox" style="display: none;">
+              <div class="car__item">
+                <div class="car__date">6 day(s),11: 02: 03 Left</div>
+                <img class="car__img img-fluid" src="img/cars/3.jpg" alt="car">
+                <div class="car__title">2002 Bmw 5 series</div>
+                <div class="car__price">$ 500,000,000</div>
+                <a href="#" class="btn btn__buy rounded-pill">Bid Now</a>
+                <div class="row no-gutters">
+                  <div class="col-md-3 car__info">2012</div>
+                  <div class="col-md-3 car__info">Automatic</div>
+                  <div class="col-md-3 car__info">White</div>
+                  <div class="col-md-3 car__info">75146</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 carBox moreBox" style="display: none;">
+              <div class="car__item">
+                <div class="car__date">6 day(s),11: 02: 03 Left</div>
+                <img class="car__img img-fluid" src="img/cars/4.jpg" alt="car">
+                <div class="car__title">2002 Bmw 5 series</div>
+                <div class="car__price">$ 500,000,000</div>
+                <a href="#" class="btn btn__buy rounded-pill">Bid Now</a>
+                <div class="row no-gutters">
+                  <div class="col-md-3 car__info">2012</div>
+                  <div class="col-md-3 car__info">Automatic</div>
+                  <div class="col-md-3 car__info">White</div>
+                  <div class="col-md-3 car__info">75146</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.row -->
+
+          <div class="row mb-4">
+            <div class="col-md-3 carBox moreBox" style="display: none;">
+              <div class="car__item">
+                <div class="car__date">6 day(s),11: 02: 03 Left</div>
+                <img class="car__img img-fluid" src="img/cars/1.jpg" alt="car">
+                <div class="car__title">2002 Bmw 5 series</div>
+                <div class="car__price">$ 500,000,000</div>
+                <a href="#" class="btn btn__buy rounded-pill">Bid Now</a>
+                <div class="row no-gutters">
+                  <div class="col-md-3 car__info">2012</div>
+                  <div class="col-md-3 car__info">Automatic</div>
+                  <div class="col-md-3 car__info">White</div>
+                  <div class="col-md-3 car__info">75146</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 carBox moreBox" style="display: none;">
+              <div class="car__item">
+                <div class="car__date">6 day(s),11: 02: 03 Left</div>
+                <img class="car__img img-fluid" src="img/cars/2.jpg" alt="car">
+                <div class="car__title">2002 Bmw 5 series</div>
+                <div class="car__price">$ 500,000,000</div>
+                <a href="#" class="btn btn__buy rounded-pill">Bid Now</a>
+                <div class="row no-gutters">
+                  <div class="col-md-3 car__info">2012</div>
+                  <div class="col-md-3 car__info">Automatic</div>
+                  <div class="col-md-3 car__info">White</div>
+                  <div class="col-md-3 car__info">75146</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 carBox moreBox" style="display: none;">
+              <div class="car__item">
+                <div class="car__date">6 day(s),11: 02: 03 Left</div>
+                <img class="car__img img-fluid" src="img/cars/3.jpg" alt="car">
+                <div class="car__title">2002 Bmw 5 series</div>
+                <div class="car__price">$ 500,000,000</div>
+                <a href="#" class="btn btn__buy rounded-pill">Bid Now</a>
+                <div class="row no-gutters">
+                  <div class="col-md-3 car__info">2012</div>
+                  <div class="col-md-3 car__info">Automatic</div>
+                  <div class="col-md-3 car__info">White</div>
+                  <div class="col-md-3 car__info">75146</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 carBox moreBox" style="display: none;">
+              <div class="car__item">
+                <div class="car__date">6 day(s),11: 02: 03 Left</div>
+                <img class="car__img img-fluid" src="img/cars/4.jpg" alt="car">
+                <div class="car__title">2002 Bmw 5 series</div>
+                <div class="car__price">$ 500,000,000</div>
+                <a href="#" class="btn btn__buy rounded-pill">Bid Now</a>
+                <div class="row no-gutters">
+                  <div class="col-md-3 car__info">2012</div>
+                  <div class="col-md-3 car__info">Automatic</div>
+                  <div class="col-md-3 car__info">White</div>
+                  <div class="col-md-3 car__info">75146</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.row -->
+
+          <div class="row mb-4">
+            <div class="col-md-3 carBox moreBox" style="display: none;">
+              <div class="car__item">
+                <div class="car__date">6 day(s),11: 02: 03 Left</div>
+                <img class="car__img img-fluid" src="img/cars/1.jpg" alt="car">
+                <div class="car__title">2002 Bmw 5 series</div>
+                <div class="car__price">$ 500,000,000</div>
+                <a href="#" class="btn btn__buy rounded-pill">Bid Now</a>
+                <div class="row no-gutters">
+                  <div class="col-md-3 car__info">2012</div>
+                  <div class="col-md-3 car__info">Automatic</div>
+                  <div class="col-md-3 car__info">White</div>
+                  <div class="col-md-3 car__info">75146</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 carBox moreBox" style="display: none;">
+              <div class="car__item">
+                <div class="car__date">6 day(s),11: 02: 03 Left</div>
+                <img class="car__img img-fluid" src="img/cars/2.jpg" alt="car">
+                <div class="car__title">2002 Bmw 5 series</div>
+                <div class="car__price">$ 500,000,000</div>
+                <a href="#" class="btn btn__buy rounded-pill">Bid Now</a>
+                <div class="row no-gutters">
+                  <div class="col-md-3 car__info">2012</div>
+                  <div class="col-md-3 car__info">Automatic</div>
+                  <div class="col-md-3 car__info">White</div>
+                  <div class="col-md-3 car__info">75146</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 carBox moreBox" style="display: none;">
+              <div class="car__item">
+                <div class="car__date">6 day(s),11: 02: 03 Left</div>
+                <img class="car__img img-fluid" src="img/cars/3.jpg" alt="car">
+                <div class="car__title">2002 Bmw 5 series</div>
+                <div class="car__price">$ 500,000,000</div>
+                <a href="#" class="btn btn__buy rounded-pill">Bid Now</a>
+                <div class="row no-gutters">
+                  <div class="col-md-3 car__info">2012</div>
+                  <div class="col-md-3 car__info">Automatic</div>
+                  <div class="col-md-3 car__info">White</div>
+                  <div class="col-md-3 car__info">75146</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 carBox moreBox" style="display: none;">
+              <div class="car__item">
+                <div class="car__date">6 day(s),11: 02: 03 Left</div>
+                <img class="car__img img-fluid" src="img/cars/4.jpg" alt="car">
+                <div class="car__title">2002 Bmw 5 series</div>
+                <div class="car__price">$ 500,000,000</div>
+                <a href="#" class="btn btn__buy rounded-pill">Bid Now</a>
+                <div class="row no-gutters">
+                  <div class="col-md-3 car__info">2012</div>
+                  <div class="col-md-3 car__info">Automatic</div>
+                  <div class="col-md-3 car__info">White</div>
+                  <div class="col-md-3 car__info">75146</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.row -->
+
+
+          <div id="loadMore">
+            <a class="btn btn__seemore rounded-pill" href="#">See More</a>
+          </div>
+
+        </div>
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.perfectCar -->
+
+  </section>
+  <!-- /Perfect car -->
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script type="text/javascript"

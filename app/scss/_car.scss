@@ -1,0 +1,60 @@
+.car {
+  display: flex;
+  flex-direction: column;
+
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: $black;
+}
+
+.car__item {
+  padding-bottom: 20px;
+  background: #fff;
+
+  position: relative;
+
+  .car__date {
+    padding: 10px 15px;
+    background: $red;
+
+    font-size: 12px;
+    color: $white;
+
+    border-radius: 7px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .car__img {
+    margin-bottom: 30px;
+  }
+
+  .car__title {
+    margin-bottom: 10px;
+
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .car__price {
+    margin-bottom: 25px;
+
+    font-size: 26px;
+    font-weight: 700;
+  }
+
+  .car__info {
+    padding: 5px;
+    font-size: 10px;
+    border-right: 1px solid #bfbfbf;
+    text-align: center;
+    color: #4b4b4b;
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+}

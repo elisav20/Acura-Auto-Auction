@@ -1,4 +1,5 @@
 .steps {
+  height: 748px;
   padding-top: 80px;
   position: relative;
 
@@ -48,6 +49,7 @@
   }
   .steps__photo {
     max-width: 50%;
+    min-height: 748px;
 
     position: absolute;
     top: 0;
