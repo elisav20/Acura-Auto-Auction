@@ -49,3 +49,14 @@ $('.select2').select2({
       }
     });
   });
+
+$('.owl-carousel').owlCarousel({
+    animateIn: 'fadeIn',
+    loop: true,
+    items: 1,
+    margin: 10,
+    nav: true,
+    navText : ["",""],
+    rewindNav : true,
+    autoplay: true
+})

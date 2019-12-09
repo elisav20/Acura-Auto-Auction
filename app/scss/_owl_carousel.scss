@@ -1,0 +1,24 @@
+.owl-carousel .owl-nav .owl-prev:before {
+  font-family: "Font Awesome 5 Free";
+  font-size: 25px;
+  font-weight: 900;
+  color: $blue;
+  content: "\f137";
+
+  position: absolute;
+  top: 100px;
+  left: 0;
+  z-index: 1;
+}
+.owl-carousel .owl-nav .owl-next:after {
+  font-family: "Font Awesome 5 Free";
+  font-size: 25px;
+  font-weight: 900;
+  color: $blue;
+  content: "\f138";
+
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  z-index: 1;
+}
