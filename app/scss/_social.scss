@@ -1,0 +1,23 @@
+.social {
+  display: flex;
+
+  .social__link {
+    font-size: 25px;
+    color: #93aabb;
+    padding: 5px 10px;
+
+    transition: all 0.3s linear;
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    &.active {
+      color: $blue;
+    }
+
+    &:hover {
+      color: $blue;
+    }
+  }
+}
