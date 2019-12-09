@@ -54,9 +54,10 @@ $('.owl-carousel').owlCarousel({
     animateIn: 'fadeIn',
     loop: true,
     items: 1,
-    margin: 10,
+    padding: 50,
+    margin: 20,
     nav: true,
     navText : ["",""],
-    rewindNav : true,
-    autoplay: true
+    autoplay: true,
+    autoplayTimeout:10000
 })

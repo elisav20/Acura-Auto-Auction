@@ -70,8 +70,7 @@
     right: 0;
     z-index: 1;
 
-    .menu__search-btn,
-    .menu__close-btn {
+    .menu__search-btn {
       width: 240px;
       height: 60px;
 
@@ -91,10 +90,6 @@
       }
     }
   }
-}
-
-.menu__close-btn {
-  display: none;
 }
 
 .search__icon {
